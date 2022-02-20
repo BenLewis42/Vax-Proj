@@ -4,8 +4,13 @@ library(patchwork)
 library(shiny)
 
 
+server <- function(input, output) {
+  
+}
+
 
 data <- read.csv('data/covidvaccine.csv')
+
 
 anti_vax_tags <- c('plandemic', 'scamdemic', 'wakeup', 'covid1984', 'covidhoax', 'nomasks', '#nomask', 'COVIDVaccineInjuries')
 
